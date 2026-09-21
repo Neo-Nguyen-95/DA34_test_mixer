@@ -1,6 +1,6 @@
-from playwright.sync_api import sync_playwright, Error
 import re
 
+from playwright.sync_api import Error, sync_playwright
 
 TARGET = "https://mathtiad.vn/"
 
